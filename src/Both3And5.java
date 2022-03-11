@@ -1,14 +1,37 @@
+import java.util.Random;
 import java.util.Scanner;
 
 /**
  * Created with IntelliJ IDEA.
  * Description: Hello,I would appreciate your comments~
- * User:
+ * User:葛玉礼
  * Date: 2022-03-11
- * Destination:
+ * Destination:3月11号上课的内容
  */
 public class Both3And5 {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        Random random = new Random();//括号中可以添加种子
+        //空的话就是按照时间戳生成随机数
+        int randNum = random.nextInt(100)+1;//没有加一是[0,100)
+        //加一之后是[1,101)
+        while(true){
+            System.out.println("请输入你要猜的数字（范围是1-100）：");
+            int num = scan.nextInt();
+            if(num<randNum) {
+                System.out.println("猜小了！");
+            }else if(num== randNum) {
+                System.out.println("猜对了！");
+                break;
+            }else {
+                System.out.println("猜大了！");
+            }
+        }
+    }
+
+
+
+    public static void main4(String[] args) {
         Scanner scan = new Scanner(System.in);
         while(scan.hasNext()){
             int i = scan.nextInt();
