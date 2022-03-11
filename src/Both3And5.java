@@ -10,6 +10,17 @@ import java.util.Scanner;
 public class Both3And5 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        while(scan.hasNext()){
+            int i = scan.nextInt();
+            System.out.println(i);
+        }
+    }//Ctrl+D结束程序进行
+
+
+
+
+    public static void main3(String[] args) {
+        Scanner scan = new Scanner(System.in);
         System.out.println("请输入你的姓名");
         String name = scan.next();//读取直到空格
         System.out.println("姓名："+name);
