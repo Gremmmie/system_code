@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Created with IntelliJ IDEA.
  * Description: Hello,I would appreciate your comments~
@@ -7,6 +9,20 @@
  */
 public class Both3And5 {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("请输入你的姓名");
+        String name = scan.next();//读取直到空格
+        System.out.println("姓名："+name);
+        System.out.println("请输入你的生日，带空格");
+        scan.nextLine();//用于清除输入缓冲区的\n
+        String haveSpace = scan.nextLine();
+        System.out.println("生日："+haveSpace);//会读取空格
+        scan.close();
+    }
+
+
+
+    public static void main2(String[] args) {
         int sum1 = 0,sum2=0;
         int i,j;
         for(i=1;i<=100;i++){
