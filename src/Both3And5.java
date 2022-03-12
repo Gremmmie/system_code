@@ -10,6 +10,11 @@ import java.util.Scanner;
  */
 public class Both3And5 {
     public static void main(String[] args) {
+
+    }
+
+
+    public static void main5(String[] args) {
         Scanner scan = new Scanner(System.in);
         Random random = new Random();//括号中可以添加种子
         //空的话就是按照时间戳生成随机数
