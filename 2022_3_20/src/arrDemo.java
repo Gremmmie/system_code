@@ -20,8 +20,16 @@ public class arrDemo {
 
         System.out.println("======================");
         array2[0] = 99;
+//        这样用array2改变首元素的值时，我们测试可以发现array1[0]也变了
         System.out.println("array1:" + Arrays.toString(array1));
         System.out.println("array2:" + Arrays.toString(array2));
+
+        int[] array3={1,2,3,4};
+        int[] array4={5,6,7,8};
+        array3=array4;
+//        这个时候{1，2，3，4}这块内存就被JVM的垃圾回收机制回收了
+        System.out.println(Arrays.toString(array3));
+        System.out.println(Arrays.toString(array4));
     }
 
     public static void main6(String[] args) {
