@@ -12,11 +12,86 @@ import java.util.Arrays;
  */
 public class arrDemo {
 
+    /**第一种拷贝方法
+     * 利用Array类的从copyOf方法来进行拷贝（你要拷贝的数组，返回的数组长度）
+     * @param args
+     */
+    public static void main(String[] args) {
+        int[] array = {1,2,3,4};
+        int[] copy = Arrays.copyOf(array,array.length);
+        int[] copy2 = Arrays.copyOf(array,2*array.length);
+        System.out.println(Arrays.toString(copy));
+        System.out.println(Arrays.toString(copy2));
+//        其实是扩容
+    }
+
+    /**第一种拷贝方法
+     * 使用for进行拷贝
+     */
+    public static void main_copy(){
+        int[] array = {1,2,3,4};
+
+        int[] copy = new int[array.length];
+
+        for (int i=0;i<array.length;i++){
+            copy[i] = array[i];
+        }
+        System.out.println(copy);
+    }
+
+
+
+
+    /**
+     * 题目1：这里写一个函数将一维数组以字符串的形式进行输出[1,2,3,4]
+     * @param array
+     * @return
+     */
+    public static String myToString(int[] array){
+        String string="[";
+        for(int i =0;i<array.length;i++){
+            string+=array[i]+"";
+            if(i!=array.length-1){
+                string +=",";
+            }
+        }
+        string+="]";
+        return string;
+    }
+    public static void main_myToString(String[] args) {
+        int[] array = {1,2,3,4};
+        String ret = myToString(array);
+        System.out.println(ret);
+    }
+
+
+
+
+
+
+    public static int[] func5(){
+        int[] array ={1,2,3,4};
+        return  array;//返回的是array，一个地址的值，该引用变量指向{1，2，3，4}
+    }//在Java中，返回值可以是一个数组
+
+
+    public static void main_func5(String[] args) {
+        int[] ret = func5();
+//        func5方法中的array返回值复制到这里之后，
+//        array在栈上开辟的引用变量的空间就被JVM垃圾回收机制回收了
+        System.out.println(Arrays.toString(ret));
+    }
+//    对比C语言中是不能返回数组的
+
+
+
+
+
 
     public static void func2(int[] array){//在栈上新分配一块array引用变量的空间，也指向main_func2中的{1，2，3，4}
         array = new int[]{11,12,13,14};//这里在堆上新new了一块数组对象{11，12，13，14}，array指向该对象
     }
-//
+//这里有个重要的概念，在Java中，都是按值传递，地址也是值
     public static void main_func2(String[] args) {
         int[] array1={1,2,3,4};
         func2(array1);//这里把array1的地址值传过去了，
