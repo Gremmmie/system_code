@@ -8,13 +8,16 @@
 public class arrDemo {
 
     public static void main(String[] args) {
-        int[] array;
+        int[] array = new int[];
+//      我们称这样为动态初始化
         array = new int[]{1,2,3,4,5};
         array = new int[]{9,8,7,6,5};
 //      这样重新定义是可以的
 
         int[] array2 = {1,2,3,4,5};
-        //array2 = {9,8,7,6,5}这样写会报错，因为定义数组的时候整体赋值，只有一次机会
+//      我们称这么做为静态初始化
+//
+//      array2 = {9,8,7,6,5}这样写会报错，因为定义数组的时候整体赋值，只有一次机会
     }
 
     public static void main2(String[] args) {
