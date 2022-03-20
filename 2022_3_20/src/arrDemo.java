@@ -12,7 +12,52 @@ import java.util.Arrays;
  */
 public class arrDemo {
 
-    public static void main(String[] args) {
+
+    public static void func2(int[] array){//在栈上新分配一块array引用变量的空间，也指向main_func2中的{1，2，3，4}
+        array = new int[]{11,12,13,14};//这里在堆上新new了一块数组对象{11，12，13，14}，array指向该对象
+    }
+//
+    public static void main_func2(String[] args) {
+        int[] array1={1,2,3,4};
+        func2(array1);//这里把array1的地址值传过去了，
+        System.out.println(Arrays.toString(array1));
+    }
+//    输出结果为1 2 3 4
+
+
+
+    public static void func3(int[] array){
+        array[0]=199;//array指向的下标为0的元素值改为199
+    }
+    public static void main_func3(String[] args) {
+        int[] arr = {100,99,88,77};
+        func3(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+//    输出结果为199，99，88，77
+
+
+
+
+    public static void func1(int a) {
+        a=20;
+    }
+    public static void main9(String[] args) {
+        int x =10;
+        func1(x);
+        System.out.println(x);
+    }
+
+
+
+    public static void main8(String[] args) {
+        int [] array1 = {1,2,3,4};
+        array1 = new int[]{11,12,13,14};
+        array1 = new int[]{6,7,8,9};
+    }
+
+//    对象  引用
+    public static void main7(String[] args) {
         int[] array1 = {1,2,3,4};
         int[] array2 = array1;
         System.out.println("array1:" + Arrays.toString(array1));
