@@ -12,11 +12,49 @@ import java.util.Arrays;
  */
 public class arrDemo {
 
+
+
+
+
+
+    /**第四种拷贝方法
+     * array.clone();
+     * @param args
+     */
+    public static void main(String[] args) {
+        int[] array = {1,2,3,4};
+        int[] copy = array.clone();
+        System.out.println(Arrays.toString(copy));
+        System.out.println(array);
+        System.out.println(copy);
+//        输出的地址不一样，说明新开辟了一个引用变量之后，新new并且指向了一个对象
+    }
+
+
+
+
+    /**第三种拷贝方式
+     * 利用arraycopy
+     * @param args
+     */
+    public static void main_copy3(String[] args) {
+
+        int[] array = {1,2,3,4};
+        int[] copy = new int[array.length];
+
+        System.arraycopy(array,0,copy,array.length,array.length);
+
+        System.out.println(Arrays.toString(copy));
+    }
+
+
+
+
     /**第一种拷贝方法
      * 利用Array类的从copyOf方法来进行拷贝（你要拷贝的数组，返回的数组长度）
      * @param args
      */
-    public static void main(String[] args) {
+    public static void main_copy2(String[] args) {
         int[] array = {1,2,3,4};
         int[] copy = Arrays.copyOf(array,array.length);
         int[] copy2 = Arrays.copyOf(array,2*array.length);
