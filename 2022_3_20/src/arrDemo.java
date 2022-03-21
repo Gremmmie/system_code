@@ -21,7 +21,7 @@ public class arrDemo {
      * array.clone();
      * @param args
      */
-    public static void main(String[] args) {
+    public static void main_copy4(String[] args) {
         int[] array = {1,2,3,4};
         int[] copy = array.clone();
         System.out.println(Arrays.toString(copy));
@@ -103,23 +103,19 @@ public class arrDemo {
     }
 
 
-
-
-
-
-    public static int[] func5(){
-        int[] array ={1,2,3,4};
-        return  array;//返回的是array，一个地址的值，该引用变量指向{1，2，3，4}
-    }//在Java中，返回值可以是一个数组
-
-
-    public static void main_func5(String[] args) {
-        int[] ret = func5();
-//        func5方法中的array返回值复制到这里之后，
-//        array在栈上开辟的引用变量的空间就被JVM垃圾回收机制回收了
-        System.out.println(Arrays.toString(ret));
+    public static void main(String[] args) {
+        int[] arr = {1,2,3};
+        func(arr);
+        System.out.println("arr[0] = " + arr[0]);
     }
-//    对比C语言中是不能返回数组的
+    public static void func(int[] a) {
+        a[0] = 10;
+        System.out.println("a[0] = " + a[0]);
+    }
+
+
+
+
 
 
 
@@ -164,6 +160,10 @@ public class arrDemo {
 
 
     public static void main8(String[] args) {
+        int a = 10;
+        int b = 20;
+        int[] arr = new int[]{1,2,3};
+
         int [] array1 = {1,2,3,4};
         array1 = new int[]{11,12,13,14};
         array1 = new int[]{6,7,8,9};
@@ -201,7 +201,7 @@ public class arrDemo {
 //        而且这个时候 System.out.println(array3);的话
 //        会显示空指针异常
 //  System.out.println(array3[0]);也会显示空指针异常
-//        既然引用变量为null了，那么就不能用array.length以及其他类似的用法啊了，会报错
+//        既然引用变量为null了，那么就不能用array.length以及其他类似的用法了，会报错
 
     }
 
@@ -227,7 +227,37 @@ public class arrDemo {
 //        把参数的数组转化成字符串进行输出
         System.out.println(ret);
 //        输出带有中括号是因为方法内部自动帮你包装了一下
+        System.out.println(Arrays.toString(array));
+    }
 
+    public static void main4_1(String[] args) {
+        int[] array = new int[]{10,20,30,40,50};
+        System.out.println(array[0]);
+        System.out.println(array[1]);
+        System.out.println(array[2]);
+        System.out.println(array[3]);
+        System.out.println(array[4]);
+    }
+
+
+    public static void main3_4(String[] args) {
+        int[] array = {1,2,3};
+        System.out.println(array[3]);
+    }
+
+
+
+    public static void main3_3(String[] args) {
+        int[] array = new int[]{10,20,30,40,50};
+        System.out.println(array[0]);
+        System.out.println(array[1]);
+        System.out.println(array[2]);
+        System.out.println(array[3]);
+        System.out.println(array[4]);
+
+//        也可以通过[]对数组中的元素进行修改
+        array[0] = 100;
+        System.out.println(array[0]);
     }
 
 

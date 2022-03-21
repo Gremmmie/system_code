@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d762bc79-491a-4ff4-abea-a45170245515" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
+    <list default="true" id="d762bc79-491a-4ff4-abea-a45170245515" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NJMU/javaHomework3_21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NJMU/javaHomework3_21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaHomework3_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaHomework3_21.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.javaHomework3_21">
     <configuration name="RockGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RockGame" />
       <module name="NJMU" />
@@ -41,8 +45,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="javaHomework3_21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaHomework3_21" />
+      <module name="NJMU" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.javaHomework3_21" />
         <item itemvalue="Application.RockGame" />
       </list>
     </recent_temporary>
@@ -70,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647245677348</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1647876997898</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647876997898</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,5 +107,21 @@
     <MESSAGE value="新建 课程作业" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javaHomework3_21.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javaHomework3_21.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
