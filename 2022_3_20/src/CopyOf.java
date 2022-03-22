@@ -16,8 +16,7 @@ public class CopyOf {
         System.out.println(Arrays.toString(copy));
     }
     public static void copyOf(int[] array,int[] copy){
-        for(int i=0;i<array.length;i++){
-            copy[i]=array[i];
-        }
+        //这里newArr和arr引用的是同一个数组
+        //因此newArr修改空间中内容之后，arr也可以看到修改的结果
     }
 }
