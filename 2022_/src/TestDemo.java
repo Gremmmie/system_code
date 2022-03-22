@@ -1,16 +1,12 @@
 import java.util.Arrays;
-
-/**
- * Created with IntelliJ IDEA.
- * Description: Hello,I would appreciate your comments~
- * User:
- * Date: -03-22
- * Destination:
- */
 public class TestDemo {
-
-
     public static void main(String[] args) {
+        int[] arr = {1,2,3,4,5,6};
+        String newArr = Arrays.toString(arr);
+        System.out.println(newArr);
+    }
+
+    public static void main_2(String[] args) {
 //        int[][] array = {{1,2},{4,5,6}};是可以这样定义的
         int[][] array2=new int[2][];//这里编译器只知道这里有两行，还没给出列
         array2[0] = new int[2];

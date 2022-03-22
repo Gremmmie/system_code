@@ -24,4 +24,12 @@ class Person {
 }
 //以后尽量一个Java文件只有一个类
 public class TestDemo3 {
+    public static void main(String[] args) {
+        String s = "I am a string!";
+
+        int n = s.length();
+        char c = s.charAt(7);
+        System.out.print(n);
+        System.out.println(c);
+    }
 }
