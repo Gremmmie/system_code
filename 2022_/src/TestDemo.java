@@ -1,6 +1,81 @@
 import java.util.Arrays;
 public class TestDemo {
-    public static void main(String[] args) {
+
+
+    public static void main(String[] args){
+        int[] arr = {1,2,3,10,5,6};
+        System.out.println(find(arr,10));
+    }
+    public static int find(int[] arr, int data){
+        for (int i=0;i<arr.length;i++){
+            if (arr[i] == data){
+                return i;
+            }
+        }
+        return -1;//
+    }
+
+
+    public static void main_average(String[] args) {
+        int[] arr = {1,2,3,4,5,6};
+        System.out.println(average(arr));
+    }
+    public static double average(int[] arr) {
+        int sum = 0;
+        for (int x: arr){
+            sum += x;
+        }
+        return (double) sum/(double) arr.length;
+    }//执行结果为3.5
+
+
+
+    public static void main_4(String[] args) {
+        int[] array = {1,2,3,4,5,6};
+        int[] array2= new int[6];
+        System.out.println("未拷贝前：" + Arrays.toString(array2));
+        array2 = copyOf(array);
+        System.out.println("拷贝了之后："+Arrays.toString(array2));
+    }
+    public static int[] copyOf(int[] arr){
+        int[] ret =new int[arr.length];
+        for (int i = 0;i<arr.length;i++){
+            ret[i] = arr[i];
+        }
+        return ret;
+    }
+
+
+
+    public static void copyOf2(int[] arr){
+
+        //这里newArr和arr引用的是同一个数组
+        //因此newArr修改空间中内容之后，arr也可以看到修改的结果
+        int[] arr2 = {1,2,3,4,5,6};
+        int[] newArr = arr2;
+        newArr[0] = 10;
+        System.out.println("newArr: "+Arrays.toString(arr2));
+
+        arr[0] = 1;
+        newArr = Arrays.copyOf(arr,arr.length);
+        System.out.println("newArr:" + Arrays.toString(newArr));
+
+
+//          使用Arrays中copyOf方法完成对数组的拷贝：
+        //copyOf方法在进行数组拷贝时，创建了一个新的数组
+        //arr和newArr引用的不是同一个数组
+        //因为arr修改其引用数组中内容时，对newArr没有任何影响
+        arr[0] = 10;
+        System.out.println("arr:" + Arrays.toString(arr));
+        System.out.println("newArr: "+Arrays.toString(newArr));
+
+        //拷贝某个范围
+        int[] newArr2 = Arrays.copyOfRange(arr,2,4);
+        System.out.println("newArr2: "+ Arrays.toString(newArr2));
+    }
+
+
+    public static void main_3(String[] args) {
         int[] arr = {1,2,3,4,5,6};
         String newArr = Arrays.toString(arr);
         System.out.println(newArr);
@@ -114,7 +189,7 @@ public class TestDemo {
         if (index == -1){
             System.out.println("没有");
         }else {
-            System.out.println("下表为"+index);
+            System.out.println("下标为"+index);
         }
     }
 
