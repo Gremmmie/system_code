@@ -136,7 +136,6 @@ public class TestDemo {
             left++;
             right--;
         }
-
     }
     public static void bubbleSort(int[] array) {
         //[0----len-1)i代表趟数
@@ -159,7 +158,6 @@ public class TestDemo {
 //        这里还可以进一步优化，我们可以进一步添加检查，
 //        检查是否发生了简化，如果没有，说明有序了，就不需要进行第三趟，第四趟...
     }
-
 
     public static void main_ArrayEqualsAndFill(String[] args) {
         int[] array1 = {1,2,3,4,5};
