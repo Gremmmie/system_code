@@ -9,12 +9,31 @@ class Person {
     public String name;
     public int age;
 
+    //构造方法：
+    //名字与类名相同，且没有返回值类型，void也不行
+    //一般情况下使用public修饰
+    //在创建对象的时候由编译器自动调用，并且在对象的声明周期内只调用一次
+    public Person(){
+        this.name = "haha";
+        this.age = 18;
+        System.out.println("构造方法被调用了");
+    }
+    public Person(String name,int age){
+        this.name = name;
+        this.age = age;
+        System.out.println("构造方法被调用了");
+    }
     public void eat() {
         System.out.println("吃饭！");
     }
 
     public void sleep() {
         System.out.println("睡觉！");
+    }
+    public static void main(String[] args){
+        //在此处创建了一个Date类型的对象，并没有显式调用构造函数
+        Person p = new Person("xiaohong",18);
+        p.eat();
     }
 }
 
@@ -24,8 +43,23 @@ class MyGirlFired {
     public int age;
     public String eyes;
 
+    public MyGirlFired(){
+        this.name = "xiaohong";
+        this.age = 18;
+    }
+    public MyGirlFired(String name,int age){
+        this.name = name;
+        this.age = age;
+    }
     public void eat() {
         System.out.println("吃火锅！");
+    }
+
+    public static void main22(String[] args) {
+        //如果编译器会生成，则生成的构造方法一定是无参数的
+        //则此处创建对象是可以通过编译的
+        //但实际上会报错
+        MyGirlFired xHong = new MyGirlFired("xiaohong",18);
     }
 }
 
@@ -40,7 +74,7 @@ class Student {
 
     public Student() {
         //调用本类中   带有2个参数的构造方法，第一个参数的类型是String，第2个参数的类型是int
-        this("gaobo",18);
+        this("yumi",18);
         //this("bit3",99,98.9,"女");
         System.out.println("这个是不带参数的构造方法！");
     }
@@ -75,7 +109,7 @@ class Student {
 //重构的时候
 public class TestDemo2 {
 
-    public static void main(String[] args) {
+    public static void main5(String[] args) {
         Student student = new Student();
         student.show();
     }

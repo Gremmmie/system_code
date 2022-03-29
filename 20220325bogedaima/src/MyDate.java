@@ -1,9 +1,9 @@
 /**
  * Created with IntelliJ IDEA.
  * Description: Hello,I would appreciate your comments~
- * User:
+ * User:Gremmie
  * Date: -03-25
- * Destination:
+ * Destination:关于日期的类
  */
 public class MyDate {
 
