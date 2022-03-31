@@ -1,7 +1,5 @@
 package com.bit.demo1;
 
-import com.bit.demo2.TestDemo2;
-
 /**
  * Created with IntelliJ IDEA.
  * Description: Hello,I would appreciate your comments~
