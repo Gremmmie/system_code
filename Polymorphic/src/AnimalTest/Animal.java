@@ -1,0 +1,21 @@
+package AnimalTest;
+
+/**
+ * Created with IntelliJ IDEA.
+ * Description: Hello,I would appreciate your comments~
+ * User:
+ * Date: -04-07
+ * Destination:
+ */
+public class Animal {
+    String name;
+    int age;
+
+    public Animal(String name,int age){
+        this.name = name;
+        this.age = age;
+    }
+    public void eat(){
+        System.out.println(name+"吃饭");
+    }
+}
