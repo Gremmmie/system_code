@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d762bc79-491a-4ff4-abea-a45170245515" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
+      <change afterPath="$PROJECT_DIR$/src/No_5Homework/modify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Polymorphic/src/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Polymorphic/out/production/Polymorphic/AnimalTest/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphic/out/production/Polymorphic/AnimalTest/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Polymorphic/out/production/Polymorphic/AnimalTest/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphic/out/production/Polymorphic/AnimalTest/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Polymorphic/src/AnimalTest/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphic/src/AnimalTest/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Polymorphic/src/AnimalTest/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphic/src/AnimalTest/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.No_4Homework">
+  <component name="RunManager" selected="Application.modify">
     <configuration name="No_4Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="No_4Homework" />
       <module name="NJMU" />
@@ -63,8 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="modify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No_5Homework.modify" />
+      <module name="NJMU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="No_5Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.modify" />
         <item itemvalue="Application.No_4Homework" />
         <item itemvalue="Application.Unnamed" />
         <item itemvalue="Application.javaHomework3_21" />
