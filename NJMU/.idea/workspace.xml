@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d762bc79-491a-4ff4-abea-a45170245515" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/src/No_5Homework/modify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphic/src/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphic/out/production/Polymorphic/AnimalTest/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphic/out/production/Polymorphic/AnimalTest/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphic/out/production/Polymorphic/AnimalTest/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphic/out/production/Polymorphic/AnimalTest/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphic/src/AnimalTest/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphic/src/AnimalTest/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphic/src/AnimalTest/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphic/src/AnimalTest/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +33,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.eclipse/NJMU/src/homework" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.modify">
-    <configuration name="No_4Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="No_4Homework" />
+  <component name="RunManager" selected="Application.Derived">
+    <configuration name="Derived" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Derived" />
       <module name="NJMU" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RockGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RockGame" />
+    <configuration name="No_4Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No_4Homework" />
       <module name="NJMU" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,10 +80,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.modify" />
-        <item itemvalue="Application.No_4Homework" />
-        <item itemvalue="Application.Unnamed" />
         <item itemvalue="Application.javaHomework3_21" />
-        <item itemvalue="Application.RockGame" />
+        <item itemvalue="Application.Unnamed" />
+        <item itemvalue="Application.No_4Homework" />
+        <item itemvalue="Application.Derived" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648564875639</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1649663700157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649663700157</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
