@@ -8,8 +8,10 @@ package laptop;
  * Destination:USB接口
  */
 public interface USB{
+    double brand = 3.0;
     void openDevice();
     void closeDevice();
+
 }
 
 
