@@ -12,13 +12,24 @@ public class Student implements Comparable<Student>{
     private String name;
     private int score;
 
-    Student[] students = new Student[]{
-            new Student("A",95),
-            new Student("B",91),
-            new Student("C",97),
-            new Student("D",95),
-    };
 
+    public static void sort(Comparable[] array){
+//        这里要注意，虽然接口不能实例化对象，
+//        但是接口类型的引用变量可以指向它的实现类对象
+//        这里的实现类对象就是实现了这个接口的对象
+//        例如Comparable[] comparable = new Student[3];
+//        所以这里的参数就可以用Comparable[] array来接收
+        for (int bound = 0;bound<array.length;bound++){
+            for (int cur = array.length-1;cur>bound;cur--){
+                if (array[cur-1].compareTo(array[cur])>0){
+                    //这里就说明顺序不符合要求，交换两个变量的位置
+                    Comparable tmp = array[cur-1];
+                    array[cur-1] = array[cur];
+                    array[cur] = tmp;
+                }
+            }
+    }
+}
     public Student(String name,int score){
         this.name = name;
         this.score = score;
@@ -46,10 +57,18 @@ public class Student implements Comparable<Student>{
             return 0;
 //      如果当前对象和参数对象不分先后，则返回0
         }
+    }
 
-//        public static void sort(Comparable[] array){
-//            for (int bound = 0;bound<array.)
-//        }
+    public static void main(String[] args) {
+        Student[] students = new Student[]{
+                new Student("A",95),
+                new Student("B",91),
+                new Student("C",97),
+                new Student("D",95),
+        };
+        System.out.println("sort前："+Arrays.toString(students));
+        sort(students);
+        System.out.println("sort后："+Arrays.toString(students));
     }
 }
 //    public static void main(String[] args) {

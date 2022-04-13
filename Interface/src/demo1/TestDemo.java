@@ -4,9 +4,9 @@ import java.util.Comparator;
 /**
  * Created with IntelliJ IDEA.
  * Description: Hello,I would appreciate your comments~
- * User:
+ * User:Gremmie
  * Date: -04-13
- * Destination:
+ * Destination:利用Comparable的接口实现对 对象数组 选择性排序的功能
  */
 class Student implements Comparable<Student>{
     public String name;
@@ -58,6 +58,7 @@ public class TestDemo {
         System.out.println("排序前："+Arrays.toString(students));
         Arrays.sort(students,nameComparator);
         System.out.println("排序后："+Arrays.toString(students));
+        Comparable<Student>[] studentComparable =students;
     }
 
     public static void main2(String[] args) {

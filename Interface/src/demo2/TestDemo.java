@@ -3,9 +3,9 @@ package demo2;
 /**
  * Created with IntelliJ IDEA.
  * Description: Hello,I would appreciate your comments~
- * User:
+ * User:Gremmie
  * Date: -04-13
- * Destination:
+ * Destination:利用Clonable的接口实现clone方法，克隆含对象的对象
  */
 class Money implements Cloneable{
     public double money = 19.9;
