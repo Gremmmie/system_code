@@ -1,5 +1,6 @@
 package ClassArray;
-
+import java.util.Arrays;
+import java.util.Comparator;
 /**
  * Created with IntelliJ IDEA.
  * Description: Hello,I would appreciate your comments~
@@ -30,6 +31,8 @@ public class Student implements Comparable<Student>{
                 ", score=" + score +
                 '}';
     }
+
+
 
     @Override
     public int compareTo(Student o) {
