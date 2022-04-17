@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * @author Gremmie102
  * @date 2022/4/17 12:35
@@ -19,6 +21,16 @@ class Message implements IMessage {
 }
 public class ObjectTest2 {
     public static void main(String[] args) {
+//        Scanner scanner = new Scanner("Columbs-H sailed the ocean blue :)");
+//        System.out.println(scanner.next());
+//        System.out.println(scanner.next());
+//        System.out.println(scanner.next());
+//        System.out.println(scanner.next());
+//        System.out.println(scanner.next());
+//        System.out.println(scanner.next());
+//        System.out.println(scanner.next());
+//        String str = String.valueOf(scanner);
+//        System.out.print(str);
         IMessage message = new Message();
 //        子类向父接口转型
         Object object = message;
