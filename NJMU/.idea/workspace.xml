@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="ceshi">
-      <change afterPath="$PROJECT_DIR$/../ObjectTest/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ObjectTest/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ObjectTest/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ObjectTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ObjectTest/ObjectTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ObjectTest/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../牛客网题目/src/test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibrarySystem/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibrarySystem/LibrarySystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibrarySystem/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibrarySystem/src/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestBook/TestBook/TestBook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibrarySystem/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibrarySystem/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibrarySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibrarySystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +58,16 @@
       <recent name="E:\JAVAcode\gyljava\NJMU\src\Experiment_3_file_processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TitleStatistics">
+  <component name="RunManager" selected="Application.Test2">
     <configuration name="RockGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RockGame" />
+      <module name="NJMU" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2" />
       <module name="NJMU" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test2" />
         <item itemvalue="Application.TitleStatistics" />
         <item itemvalue="Application.RockGame" />
       </list>
