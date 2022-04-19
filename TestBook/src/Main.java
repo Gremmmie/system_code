@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * @ Author 12629
  * @ Date 2022/4/10 11:38
- * @ Description：
+ * @ Description：程序进入的Main类
  */
 public class Main {
 

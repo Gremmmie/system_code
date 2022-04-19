@@ -1,5 +1,4 @@
 package operation;
-import book.Book;
 import book.BookList;
 
 /**
@@ -7,9 +6,9 @@ import book.BookList;
  * Description: Hello,I would appreciate your comments~
  * User:
  * Date: -04-12
- * Destination:
+ * Destination: 退出系统
  */
-public class ExitOperation implements IOPeration{
+public class ExitOperation implements IOperation {
 
     public void work(BookList bookList) {
 

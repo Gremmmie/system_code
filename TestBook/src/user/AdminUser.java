@@ -1,6 +1,5 @@
 package user;
 
-import book.BookList;
 import operation.*;
 
 import java.util.Scanner;
@@ -8,14 +7,14 @@ import java.util.Scanner;
 /**
  * @ Author 12629
  * @ Date 2022/4/10 12:05
- * @ Description：
+ * @ Description：管理员
  */
 public class AdminUser extends User{
 
     public AdminUser(String name) {
         super(name);
 
-        this.ioPerations = new IOPeration[] {
+        this.IOperations = new IOperation[] {
                 new ExitOperation(),
                 new FindOperation(),
                 new AddOperation(),

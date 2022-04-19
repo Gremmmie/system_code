@@ -10,9 +10,11 @@ public class Book {
     private String author;//作者
     private int price;//价格
     private String type;//类型
+    private int id;//书号
     private boolean isBorrowed;//是否被借出
 
-    public Book(String name, String author, int price, String type) {
+
+    public Book(int id,String name, String author, int price, String type) {
         this.name = name;
         this.author = author;
         this.price = price;
@@ -59,6 +61,18 @@ public class Book {
         isBorrowed = borrowed;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getId(String a){
+        return id+"";
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     @Override
     public String toString() {
         return "Book{" +
@@ -66,8 +80,8 @@ public class Book {
                 ", author='" + author + '\'' +
                 ", price=" + price +
                 ", type='" + type + '\'' +
-                ((isBorrowed == true) ? "  已借出" : "  未借出")+
-                //", isBorrowed=" + isBorrowed +
+                ", id=" + id +
+                ", isBorrowed=" + isBorrowed +
                 '}';
     }
 }

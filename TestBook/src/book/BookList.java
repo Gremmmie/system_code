@@ -12,9 +12,9 @@ public class BookList {
     private int usedSize;//数组中放了几本书
 
     public BookList() {
-        books[0] = new Book("三国演义","罗贯中",90,"小说");
-        books[1] = new Book("西游记","吴承恩",78,"小说");
-        books[2] = new Book("红楼梦","曹雪芹",89,"小说");
+        books[0] = new Book(1,"三国演义","罗贯中",90,"小说");
+        books[1] = new Book(2,"西游记","吴承恩",78,"小说");
+        books[2] = new Book(3,"红楼梦","曹雪芹",89,"小说");
         this.usedSize = 3;
     }
 

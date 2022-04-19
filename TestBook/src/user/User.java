@@ -1,27 +1,24 @@
 package user;
-
 import book.BookList;
-import operation.IOPeration;
+import operation.IOperation;
 
 /**
  * @ Author 12629
  * @ Date 2022/4/10 12:04
- * @ Description：
+ * @ Description：user的抽象类，用来被继承
  */
-public abstract class User {
-    protected String name;
-    //.....罗列更多的属性
 
-    public IOPeration[] ioPerations;//这里不初始化 接口数组
+abstract public class User {
+    protected String name;
+    protected IOperation[] IOperations;
 
     public User(String name) {
         this.name = name;
     }
 
-    public abstract int menu();
+    abstract public int menu();
 
-    public void doOperation(int choice,BookList bookList) {
-        ioPerations[choice].work(bookList);
+    public void doOperation(int choice, BookList bookList) {
+        IOperations[choice].work(bookList);
     }
-
 }

@@ -1,15 +1,34 @@
 package operation;
+import book.Book;
 import book.BookList;
+import java.util.Scanner;
 /**
  * Created with IntelliJ IDEA.
  * Description: Hello,I would appreciate your comments~
- * User:
+ * User:Gremmie
  * Date: -04-12
- * Destination:
+ * Destination: 查找书籍
  */
-public class FindOperation implements IOPeration{
-
+public class FindOperation implements IOperation {
+    @Override
     public void work(BookList bookList) {
-        System.out.println("查找图书！");
+        System.out.println("查找书籍!");
+        System.out.println("请输入要查找书籍的书名: ");
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.next();
+        int count = 0;
+        for (int i = 0; i < bookList.getUsedSize(); i++) {
+            Book book = bookList.getPos(i);
+            if (book.getName().equals(name)) {
+                System.out.println(book);
+                count++;
+            }
+        }
+        if (count == 0) {
+            System.out.println("没找到此书籍!");
+        } else {
+            System.out.println("共找到 " + count + " 本相同书籍!");
+        }
     }
 }
+

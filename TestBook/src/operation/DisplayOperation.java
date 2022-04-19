@@ -8,9 +8,9 @@ import book.BookList;
  * Description: Hello,I would appreciate your comments~
  * User:
  * Date: -04-12
- * Destination:
+ * Destination: 查看所有图书
  */
-public class DisplayOperation implements IOPeration{
+public class DisplayOperation implements IOperation {
     public void work(BookList bookList) {
         System.out.println("显示图书！");
 
