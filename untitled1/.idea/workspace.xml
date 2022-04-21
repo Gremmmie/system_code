@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4844626-805d-49a5-81f5-f4f2cd0f572f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Oops6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibrarySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibrarySystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NJMU/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NJMU/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NJMU/src/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NJMU/src/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NJMUHomework6.iml" afterDir="false" />
-    </list>
+    <list default="true" id="a4844626-805d-49a5-81f5-f4f2cd0f572f" name="Changes" comment="4月21日Java作业" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +58,14 @@
       <option name="presentableId" value="Default" />
       <updated>1650522726285</updated>
     </task>
+    <task id="LOCAL-00001" summary="4月21日Java作业">
+      <created>1650527277369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650527277369</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,5 +78,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="4月21日Java作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="4月21日Java作业" />
   </component>
 </project>
