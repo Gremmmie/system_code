@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="ceshi">
-      <change afterPath="$PROJECT_DIR$/../LibrarySystem/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibrarySystem/LibrarySystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibrarySystem/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibrarySystem/src/book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestBook/TestBook/TestBook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibrarySystem/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibrarySystem/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibrarySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibrarySystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
