@@ -9,6 +9,7 @@ public class Test1 {
         char[] ch = str.toCharArray();
         char[] ch1 = new char[ch.length];
         ch1[0]=ch[0];
+//        str.length()*j
         for(i=1;i<str.length();i++){
             int k =0;
             for (int n = 0; n <= j; n++){
@@ -25,6 +26,7 @@ public class Test1 {
             }
         }
         boolean sort = false;
+//        Math.sqrt(ch1.length)*ch1.length-1
         for (int a = 0;a<Math.sqrt(ch1.length);a++){
 
             for (int b = 1;b<ch1.length-1;b++) {
