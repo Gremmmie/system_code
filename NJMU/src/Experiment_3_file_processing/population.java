@@ -1,13 +1,5 @@
 package Experiment_3_file_processing;
 
-/**
- * Created with IntelliJ IDEA.
- * Description: Hello,I would appreciate your comments~
- * User:
- * Date: -04-14
- * Destination:
- */
-
 import java.io.*;
 import java.util.*;
 public class population {
@@ -22,7 +14,6 @@ public class population {
 //      判别文件中第一行的姓名与用户输入的姓名是否一致
         babyName.close();
 //      清空scanner流
-
     }
 
     public static void judge(Scanner console,Scanner babyName) {
@@ -35,21 +26,8 @@ public class population {
                 while(again.hasNextInt()) {
                     int num=again.nextInt();
                     System.out.println(num);
-
                 }
             }
-
         }
-//        String names1=console.nextLine();
-//        while(babyName.hasNextLine()) {
-//            String data=babyName.nextLine();
-//            Scanner again=new Scanner(data);
-//            if(again.next().equalsIgnoreCase(names1)) {
-//                System.out.println("*");
-//
-//            }
-//        }
-
     }
-
 }
