@@ -4,16 +4,7 @@ package Gaobo;
  * @date 2022/4/28 9:24
  * @purpose :
  */
-//import com.sun.org.apache.xpath.internal.objects.XNodeSet;
-//import org.omg.CORBA.DATA_CONVERSION;
 
-import java.util.LinkedList;
-
-/**
- * @Author 12629
- * @Date 2022/4/27 19:45
- * @Description：
- */
 public class MySingleList {
 
     static class ListNode {
