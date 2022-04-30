@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="学校的第三次实验课">
-      <change afterPath="$PROJECT_DIR$/../MyArrayList/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyArrayList/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyArrayList/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyArrayList/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyArrayList/MyArrayList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyArrayList/src/MyArrayList.java" afterDir="false" />
+    <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="学校的第四次实验课">
+      <change afterPath="$PROJECT_DIR$/src/Experiment_3_file_processing/chenZhiYong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sum.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Experiment_3_file_processing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Experiment_3_file_processing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Experiment_3_file_processing/population.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Experiment_3_file_processing/population.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +53,20 @@
       <recent name="E:\JAVAcode\gyljava\NJMU\src\Experiment_3_file_processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Answer_sum">
+    <configuration name="Answer_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Experiment_4_Array.Answer_sum" />
+      <module name="NJMU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Experiment_4_Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Experiment_3_file_processing.Main" />
       <module name="NJMU" />
@@ -69,13 +76,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RockGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RockGame" />
-      <module name="NJMU" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,19 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test2" />
+    <configuration name="chenZhiYong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Experiment_3_file_processing.chenZhiYong" />
       <module name="NJMU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Experiment_3_file_processing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitleStatistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Experiment_3_file_processing.TitleStatistics" />
+    <configuration name="sumLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Experiment_4_Array.sumLine" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="Experiment_4_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Answer_sum" />
+        <item itemvalue="Application.sumLine" />
+        <item itemvalue="Application.chenZhiYong" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TM1_MyWordsCount" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.TitleStatistics" />
-        <item itemvalue="Application.RockGame" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650788773316</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="学校的第四次实验课">
+      <created>1651159218361</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651159218361</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +190,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ceshi" />
     <MESSAGE value="学校的第三次实验课" />
-    <option name="LAST_COMMIT_MESSAGE" value="学校的第三次实验课" />
+    <MESSAGE value="学校的第四次实验课" />
+    <option name="LAST_COMMIT_MESSAGE" value="学校的第四次实验课" />
   </component>
 </project>
