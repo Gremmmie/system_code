@@ -1,3 +1,5 @@
+package OtherClass;
+
 /**
  * Created with IntelliJ IDEA.
  * Description: Hello,I would appreciate your comments~

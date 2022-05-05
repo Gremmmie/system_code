@@ -2,7 +2,7 @@ package Gaobo;
 /**
  * @author Gremmie102
  * @date 2022/4/28 9:24
- * @purpose :
+ * @purpose :单链表的实现
  */
 
 public class MySingleList {
@@ -162,7 +162,12 @@ public class MySingleList {
 
     //删除所有值为key的节点
     public void removeAllKey(int key){
-
+        while(true){
+            remove(key);
+            if (this.contains(key)){
+                continue;
+            }else break;
+        }
     }
 
     //得到单链表的长度
@@ -177,7 +182,7 @@ public class MySingleList {
     }
 
     public void clear(){
-
+        this.head = null;
     }
 
 }

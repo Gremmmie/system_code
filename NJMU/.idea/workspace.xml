@@ -2,9 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="学校的第四次实验课">
-      <change afterPath="$PROJECT_DIR$/src/Experiment_3_file_processing/chenZhiYong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sum.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/Answer_TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/ChessBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/LetterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/MenuException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/Tool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/moveException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niukewang/TestDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/src/Gaobo/MySingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/src/Gaobo/MySingleList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NJMU/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NJMU/Derived.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NJMU/No_4Homework.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NJMU/RockGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NJMU/Test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NJMU/draft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NJMU/drawStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NJMU/javaHomework3_21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/No_4Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/No_4Homework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RockGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/RockGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/Test1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/draft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/draft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/drawStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/drawStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaHomework3_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/javaHomework3_21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sum.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/sum.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +75,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JAVAcode\gyljava\NJMU\src\OtherClass" />
       <recent name="E:\JAVAcode\gyljava\NJMU\src" />
       <recent name="E:\JAVAcode\gyljava\NJMU\src\Experiment_3_file_processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Answer_sum">
+  <component name="RunManager" selected="Application.TicTacToe">
     <configuration name="Answer_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Experiment_4_Array.Answer_sum" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Experiment_4_Array.*" />
+          <option name="PATTERN" value="Experiment_4_Array.TicTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Experiment_3_file_processing.Main" />
+    <configuration name="ChessBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Experiment_4_Array.TicTacToe.ChessBoard" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Experiment_3_file_processing.*" />
+          <option name="PATTERN" value="Experiment_4_Array.TicTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TM1_MyWordsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Experiment_3_file_processing.TM1_MyWordsCount" />
+    <configuration name="TestDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niukewang.TestDemo1" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Experiment_3_file_processing.*" />
+          <option name="PATTERN" value="niukewang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chenZhiYong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Experiment_3_file_processing.chenZhiYong" />
+    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Experiment_4_Array.TicTacToe.TicTacToe" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Experiment_3_file_processing.*" />
+          <option name="PATTERN" value="Experiment_4_Array.TicTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,7 +138,7 @@
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Experiment_4_Array.*" />
+          <option name="PATTERN" value="Experiment_4_Array.TicTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicTacToe" />
+        <item itemvalue="Application.ChessBoard" />
+        <item itemvalue="Application.TestDemo1" />
         <item itemvalue="Application.Answer_sum" />
         <item itemvalue="Application.sumLine" />
-        <item itemvalue="Application.chenZhiYong" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TM1_MyWordsCount" />
       </list>
     </recent_temporary>
   </component>

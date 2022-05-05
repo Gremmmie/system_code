@@ -1,3 +1,5 @@
+package OtherClass;
+
 /**
  * Created with IntelliJ IDEA.
  * Description: Hello,I would appreciate your comments~
@@ -10,7 +12,7 @@ public class Base {
         System.out.println("父类Base的构造函数");
     }
 }
-//class Derived extends Base{
+//class Derived extends OtherClass.Base{
 //    public Derived(){
 //        //super();//注意子类构造方法中默认会调用基类的无参构造方法：super();
 //        //用户没有写super();给父类初始化的时候，编译器会自动添加，

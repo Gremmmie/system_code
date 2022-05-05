@@ -1,3 +1,5 @@
+package OtherClass;
+
 import java.util.Scanner;
 
 /**
