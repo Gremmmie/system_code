@@ -29,67 +29,66 @@ public class TicTacToe {
             Player player = new Player();
             Computer computer = new Computer();
             chessBoard.initBoard();
-            while(true){
-                chessBoard.showBoard();
-                System.out.println("You want to play first?(Y/N)");
-                if (readLetterSelection()){
-                    while(true){
-                        if (chessBoard.isFull()){
-                            System.out.println("棋盘已满，本局游戏结束");
-                            break;
-                        }
-                        player.moveChess(chessBoard);
-                        chessBoard.showBoard();
-                        char flag = chessBoard.isWin();
-                        if (flag == 'P'){
-                            System.out.println("玩家获胜！");
-                            break;
-                        }else if (flag == 'C'){
-                            System.out.println("人工智障获胜！");
-                            break;
-                        }
-
-                        computer.moveChess(chessBoard);
-                        chessBoard.showBoard();
-                        if (flag == 'P'){
-                            System.out.println("玩家获胜！");
-                            break;
-                        }else if (flag == 'C'){
-                            System.out.println("人工智障获胜！");
-                            break;
-                        }
-
+            chessBoard.showBoard();
+            System.out.println("You want to play first?(Y/N)");
+            if (readLetterSelection()){
+                while(true){
+                    if (chessBoard.isFull()){
+                        System.out.println("棋盘已满，本局游戏结束");
+                        break;
                     }
-                }else {
-                    while(true){
-                        if (chessBoard.isFull()){
-                            System.out.println("棋盘已满，本局游戏结束");
-                            break;
-                        }
+                    player.moveChess(chessBoard);
+                    chessBoard.showBoard();
+                    char flag = chessBoard.isWin();
+                    if (flag == 'P'){
+                        System.out.println("玩家获胜！");
+                        break;
+                    }else if (flag == 'C'){
+                        System.out.println("人工智障获胜！");
+                        break;
+                    }
 
-                        char flag = chessBoard.isWin();
-                        computer.moveChess(chessBoard);
-                        chessBoard.showBoard();
-                        if (flag == '*'){
-                            System.out.println("玩家获胜！");
-                            break;
-                        }else if (flag == '#'){
-                            System.out.println("人工智障获胜！");
-                            break;
-                        }
-                        player.moveChess(chessBoard);
-                        chessBoard.showBoard();
+                    computer.moveChess(chessBoard);
+                    chessBoard.showBoard();
+                    if (flag == 'P'){
+                        System.out.println("玩家获胜！");
+                        break;
+                    }else if (flag == 'C'){
+                        System.out.println("人工智障获胜！");
+                        break;
+                    }
 
-                        if (flag == '*'){
-                            System.out.println("玩家获胜！");
-                            break;
-                        }else if (flag == '#'){
-                            System.out.println("人工智障获胜！");
-                            break;
-                        }
+                }
+            }else {
+                while(true){
+                    if (chessBoard.isFull()){
+                        System.out.println("棋盘已满，本局游戏结束");
+                        break;
+                    }
+
+                    char flag = chessBoard.isWin();
+                    computer.moveChess(chessBoard);
+                    chessBoard.showBoard();
+                    if (flag == 'P'){
+                        System.out.println("玩家获胜！");
+                        break;
+                    }else if (flag == 'C'){
+                        System.out.println("人工智障获胜！");
+                        break;
+                    }
+                    player.moveChess(chessBoard);
+                    chessBoard.showBoard();
+
+                    if (flag == 'P'){
+                        System.out.println("玩家获胜！");
+                        break;
+                    }else if (flag == 'C'){
+                        System.out.println("人工智障获胜！");
+                        break;
                     }
                 }
             }
+
         }
     }
     public static void showMenu(){

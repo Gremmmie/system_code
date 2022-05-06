@@ -29,7 +29,7 @@ public class Tool {
 
     //判断位置是否符合要求
     public static boolean readPosition(int x,int y,ChessBoard board){
-        if(1 <= x && x <= board.getRow() && 1 <= y && y <= board.getCol() && board.getBoard()[x - 1][y - 1] == ' '){
+        if(2 <= x && x <= board.getRow()-2 && 2 <= y && y <= board.getCol()-2 && board.getBoard()[x][y] == ' '){
             return true;
         }
         return false;

@@ -18,11 +18,11 @@ public class Computer {
     public void moveChess(ChessBoard chessBoard){
         Scanner sc = new Scanner(System.in);
         while(true){
-            int x = (int)(Math.random() * 3);
+            int x = (int)(Math.random() * 3);//[0，3）
             int y = (int)(Math.random() * 3);
-            boolean isFlag = Tool.readPosition(x+1,y+1,chessBoard);
+            boolean isFlag = Tool.readPosition(x+2,y+2,chessBoard);
             if(isFlag){
-                chessBoard.getBoard()[x][y] = chess;
+                chessBoard.getBoard()[x+2][y+2] = chess;
                 return;
             }
         }

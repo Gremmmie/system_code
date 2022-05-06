@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="学校的第四次实验课">
-      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/Answer_TicTacToe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/ChessBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/LetterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/MenuException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/TicTacToe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/Tool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/moveException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/niukewang/TestDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/src/Gaobo/MySingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/src/Gaobo/MySingleList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NJMU/Base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NJMU/Derived.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NJMU/No_4Homework.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NJMU/RockGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NJMU/Test1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NJMU/draft.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NJMU/drawStairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NJMU/javaHomework3_21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/No_4Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/No_4Homework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RockGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/RockGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/Test1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/draft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/draft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/drawStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/drawStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaHomework3_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/javaHomework3_21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sum.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/sum.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/ChessBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/ChessBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Experiment_4_Array/TicTacToe/Tool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651159218361</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="学校的第四次实验课">
+      <created>1651760876445</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651760876445</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

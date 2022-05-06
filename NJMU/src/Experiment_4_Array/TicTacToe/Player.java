@@ -17,9 +17,10 @@ public class Player {
         return chess;
     }
     public void moveChess(ChessBoard chessBoard){
-        System.out.println("输入坐标：(x,y)");
-        int x = new Scanner(System.in).nextInt();
-        int y = new Scanner(System.in).nextInt();
+        System.out.print("输入坐标X：");
+        int x = new Scanner(System.in).nextInt()+1;
+        System.out.print("输入坐标Y：");
+        int y = new Scanner(System.in).nextInt()+1;
 
         if (Tool.readPosition(x,y,chessBoard)){
             chessBoard.board[x][y] = chess;
