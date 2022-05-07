@@ -22,18 +22,27 @@ public class MySingleList {
      * 这里只是简单的进行，链表的构造。
      */
     public void createList() {
-        ListNode listNode1 = new ListNode(12);
-        ListNode listNode2 = new ListNode(23);
-        ListNode listNode3 = new ListNode(34);
-        ListNode listNode4 = new ListNode(45);
-        ListNode listNode5 = new ListNode(56);
-
-        listNode1.next = listNode2;
-
-        listNode2.next = listNode3;
-        listNode3.next = listNode4;
-        listNode4.next = listNode5;
-        this.head = listNode1;
+        ListNode l1 = new ListNode(12);
+        ListNode l2 = new ListNode(12);
+        ListNode l3 = new ListNode(13);
+        ListNode l4 = new ListNode(14);
+        ListNode l5 = new ListNode(12);
+        l1.next = l2;
+        l2.next = l3;
+        l3.next = l4;
+        l4.next = l5;
+//        ListNode listNode1 = new ListNode(12);
+//        ListNode listNode2 = new ListNode(23);
+//        ListNode listNode3 = new ListNode(34);
+//        ListNode listNode4 = new ListNode(45);
+//        ListNode listNode5 = new ListNode(56);
+//
+//        listNode1.next = listNode2;
+//
+//        listNode2.next = listNode3;
+//        listNode3.next = listNode4;
+//        listNode4.next = listNode5;
+        this.head = l1;
     }
 
 
@@ -45,7 +54,14 @@ public class MySingleList {
         }
         System.out.println();
     }
-
+    public static void display(ListNode head){
+        ListNode cur = head;
+        while (cur != null) {
+            System.out.print(cur.val+" ");
+            cur = cur.next;
+        }
+        System.out.println();
+    }
     /**
      * 头插法
      * O(1)
@@ -158,16 +174,184 @@ public class MySingleList {
         }
     }
 
-
-
-    //删除所有值为key的节点
-    public void removeAllKey(int key){
-        while(true){
-            remove(key);
-            if (this.contains(key)){
-                continue;
-            }else break;
+    public void reverse() {
+        ListNode prev = head.next;
+        ListNode cur = prev.next;
+        head.next = null;
+        while (cur != null) {
+            prev.next = head;
+            head = prev;
+            prev = cur;
+            cur = cur.next;
         }
+        prev.next = head;
+        head = prev;
+    }
+
+
+    public ListNode midNode(){
+        ListNode slow = head;
+        ListNode fast = head;
+        while(fast.next!=null){
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return slow;
+    }
+    public ListNode KthNode(int k){
+        ListNode slow = head;
+        ListNode fast = head ;
+        while(k>1){
+            fast = fast.next;
+            k--;
+        }
+        while(fast.next!=null){
+            fast = fast.next;
+            slow = slow.next;
+        }
+        return slow;
+    }
+    public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode prehead = new ListNode(-1);
+
+        ListNode prev = prehead;
+        while (l1 != null && l2 != null) {
+            if (l1.val <= l2.val) {
+                prev.next = l1;
+                l1 = l1.next;
+            } else {
+                prev.next = l2;
+                l2 = l2.next;
+            }
+            prev = prev.next;
+        }
+        // 合并后 l1 和 l2 最多只有一个还未被合并完，我们直接将链表末尾指向未合并完的链表即可
+        prev.next = l1 == null ? l2 : l1;
+
+        return prehead.next;
+    }
+
+    public static ListNode merge(ListNode list1,ListNode list2){
+//        ListNode newHead = list1.head.val<=list2.head.val?list1.head:list2.head;
+        ListNode newHead = new ListNode(-1);
+        ListNode tmp = newHead;
+//        if (newHead==list1.head){
+//            list1.head = list1.head.next;
+//        }else{
+//            list2.head = list2.head.next;
+//        }
+        while(list1!=null&&list2!=null){
+            if (list1.val<=list2.val){
+                tmp.next = list1;
+                list1 = list1.next;
+            }else{
+                tmp.next = list2;
+                list2 = list2.next;
+            }
+            tmp = tmp.next;
+        }
+        tmp.next = list1 == null ? list2 : list1;
+//        if (list1.head==null){
+//            tmp.next = list2.head;
+//        }else{
+//            tmp.next = list1.head;
+//        }
+        return newHead.next;
+    }
+
+    public static void main(String[] args) {
+        MySingleList list1 = new MySingleList();
+        MySingleList list2 = new MySingleList();
+        list1.addIndex(0,1);
+        list1.addIndex(1,3);
+        list1.addIndex(2,4);
+        list1.addIndex(3,5);
+        list1.addIndex(4,7);
+        list1.display();
+        list2.addIndex(0,2);
+        list2.addIndex(1,4);
+        list2.addIndex(2,6);
+        list2.display();
+//        ListNode newHead = MySingleList.mergeTwoLists(list1.head,list2.head);
+        ListNode newHead2 = MySingleList.merge(list1.head,list2.head);
+//        while(newHead!=null){
+//            System.out.print(newHead.val+" ");
+//            newHead = newHead.next;
+//        }
+//        System.out.println();
+        while(newHead2!=null){
+            System.out.print(newHead2.val+" ");
+            newHead2 = newHead2.next;
+        }
+        System.out.println();
+    }
+    public static void main4(String[] args) {
+        MySingleList mySingleList = new MySingleList();
+        mySingleList.createList();
+        mySingleList.display();
+        System.out.println(mySingleList.KthNode(2).val);
+    }
+
+    public static void main3(String[] args) {
+        MySingleList mySingleList = new MySingleList();
+        mySingleList.createList();
+        mySingleList.display();
+        System.out.println(mySingleList.midNode().val);
+    }
+    public static void main2(String[] args) {
+        MySingleList mySingleList = new MySingleList();
+        mySingleList.createList();
+        mySingleList.display();
+        mySingleList.reverse();
+        mySingleList.display();
+    }
+    public static void main1(String[] args){
+        MySingleList mySingleList = new MySingleList();
+        mySingleList.createList();
+//        ListNode l1 = new ListNode(12);
+//        ListNode l2 = new ListNode(12);
+//        ListNode l3 = new ListNode(13);
+//        ListNode l4 = new ListNode(14);
+//        ListNode l5 = new ListNode(12);
+//        l1.next = l2;
+//        l2.next = l3;
+//        l3.next = l4;
+//        l4.next = l5;
+//        ListNode head = l1;
+        mySingleList.display();
+        removeAllKey(12,mySingleList);
+        mySingleList.display();
+    }
+    //删除链表中等于给定值 val 的所有节点
+    public static void removeAllKey(int key,MySingleList mySingleList){
+
+        ListNode cur = mySingleList.head.next;
+        ListNode sub = mySingleList.head;
+        while(mySingleList.head.val==key){
+            mySingleList.head=mySingleList.head.next;
+//                sub.next=null;
+//                cur.next = null;
+                cur=mySingleList.head.next;
+                sub=mySingleList.head;
+        }
+        while(cur!=null){
+            if (cur.val==key){
+                cur=cur.next;
+                sub.next=cur;
+            }else{
+                sub=sub.next;
+                cur=cur.next;
+            }
+        }
+
+
+//        这个方法时间复杂度有点高
+//        while(true){
+//            remove(key);
+//            if (this.contains(key)){
+//                continue;
+//            }else break;
+//        }
     }
 
     //得到单链表的长度
