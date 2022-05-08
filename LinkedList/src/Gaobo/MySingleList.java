@@ -1,4 +1,7 @@
 package Gaobo;
+
+import java.util.List;
+
 /**
  * @author Gremmie102
  * @date 2022/4/28 9:24
@@ -285,6 +288,56 @@ public class MySingleList {
         }
         System.out.println();
     }
+
+    /**
+     * 根据给定的X分隔当前的链表
+     * @param x
+     * @return
+     */
+    public ListNode partition(int x){
+        ListNode bs = null;
+        ListNode be = null;
+        ListNode as = null;
+        ListNode ae = null;
+
+        ListNode cur = head;
+        while(cur!=null){
+            if (cur.val<x){
+                //判断是否第一次插入
+                if (bs==null){
+                    bs=cur;
+                    be=cur;
+                }else{
+                    be.next=cur;
+                    be=be.next;
+//                    进行尾插
+                }
+            }else{
+                if (as==null){
+                    as=cur;
+                    ae=cur;
+                }else{
+                    ae.next=cur;
+                    ae=ae.next;
+                }
+            }
+            cur=cur.next;
+        }
+        if (bs==null){
+//            说明第一个区间没有数据
+            return as;
+        }
+
+        //让最后一个节点为null
+        be.next = as;
+        if (as != null) {
+            //如果第二区间开头不为空，那结尾的next就要为空
+            ae.next=null;
+        }
+        return bs;
+
+    }
+
     public static void main4(String[] args) {
         MySingleList mySingleList = new MySingleList();
         mySingleList.createList();
