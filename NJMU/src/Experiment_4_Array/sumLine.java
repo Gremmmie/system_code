@@ -94,5 +94,4 @@ public class sumLine {
         sumAll(scanner);
         scanner.close();
     }
-
 }
