@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="双链表的实现">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jxl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HuJieProject/WhoIsAbsent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HuJieProject/jxl.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoubleNode/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleNode/DoubleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NJMU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NJMU.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +55,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/HuJieProject" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="DoubleNode" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JAVAcode\gyljava\NJMU\src\HuJieProject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\JAVAcode\gyljava\NJMU\src\OtherClass" />
@@ -65,20 +74,7 @@
       <recent name="E:\JAVAcode\gyljava\NJMU\src\Experiment_3_file_processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test2">
-    <configuration name="ARRAY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Experiment_4_Array.ARRAY" />
-      <module name="NJMU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Experiment_4_Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WhoIsAbsent">
     <configuration name="Answer_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Experiment_4_Array.Answer_sum" />
       <module name="NJMU" />
@@ -118,6 +114,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhoIsAbsent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HuJieProject.WhoIsAbsent" />
+      <module name="NJMU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HuJieProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sumLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Experiment_4_Array.sumLine" />
       <module name="NJMU" />
@@ -133,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WhoIsAbsent" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.PalindromeList" />
         <item itemvalue="Application.sumLine" />
         <item itemvalue="Application.Answer_sum" />
-        <item itemvalue="Application.ARRAY" />
       </list>
     </recent_temporary>
   </component>
