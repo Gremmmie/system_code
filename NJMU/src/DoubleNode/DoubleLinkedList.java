@@ -97,6 +97,30 @@ public class DoubleLinkedList<T> implements LinearTable<T>{
     public void removeKey(T key) {
         Node pre = head;
         Node cur = head;
+        while(head.data==key){
+            head = head.next;
+            head.prev = null;
+            return;
+        }
+        cur = cur.next;
+        while(cur!=null){
+            if (cur.next==null){
+                return;
+            }
+            if (cur.data==key){
+                cur = cur.next;
+            }else{
+                pre.next = cur;
+                cur.prev = pre;
+            }
+        }
+
+    }
+
+    @Override
+    public void removeAll(T key) {
+        Node pre = head;
+        Node cur = head;
         while(head.data!=key){
             head = head.next;
             head.prev = null;
@@ -110,13 +134,9 @@ public class DoubleLinkedList<T> implements LinearTable<T>{
                 cur = cur.next;
             }else{
                 pre.next = cur;
+                cur.prev = pre;
             }
         }
-
-    }
-
-    @Override
-    public void removeAll(T key) {
 
     }
 

@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="学校的实验课">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/history.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoubleNode/DoubleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoubleNode/DoubleNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoubleNode/LinearTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Experiment_4_Array/ARRAY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OtherClass/Person3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingleList/PalindromeList.java" afterDir="false" />
+    <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="双链表的实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Experiment_4_Array/sumLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Experiment_4_Array/sumLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OtherClass/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OtherClass/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoubleNode/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleNode/DoubleLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +15,8 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -223,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652079499139</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="双链表的实现">
+      <created>1652280137179</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652280137179</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +241,7 @@
     <MESSAGE value="学校的第6次实验课继承与接口" />
     <MESSAGE value="学校的第7次实验课继承与接口" />
     <MESSAGE value="学校的实验课" />
-    <option name="LAST_COMMIT_MESSAGE" value="学校的实验课" />
+    <MESSAGE value="双链表的实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="双链表的实现" />
   </component>
 </project>
