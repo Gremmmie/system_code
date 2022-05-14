@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="双链表的实现">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jxl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HuJieProject/WhoIsAbsent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HuJieProject/jxl.jar" afterDir="false" />
+    <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="jxl">
+      <change afterPath="$PROJECT_DIR$/src/HuJieProject/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NJMU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NJMU.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -229,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652280137179</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="jxl">
+      <created>1652370413677</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652370413677</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +255,7 @@
     <MESSAGE value="学校的第7次实验课继承与接口" />
     <MESSAGE value="学校的实验课" />
     <MESSAGE value="双链表的实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="双链表的实现" />
+    <MESSAGE value="jxl" />
+    <option name="LAST_COMMIT_MESSAGE" value="jxl" />
   </component>
 </project>
