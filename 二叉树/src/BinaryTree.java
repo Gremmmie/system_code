@@ -1,7 +1,9 @@
 import com.sun.source.tree.Tree;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * @author Gremmie102
@@ -52,6 +54,45 @@ public class BinaryTree {
         System.out.print(root.val + " -> ");
         preOrder(root.left);
         preOrder(root.right);
+    }
+
+    /**
+     * 层序遍历
+     * @param root
+     */
+    void levelOrder(TreeNode root){
+        if(root == null) return;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while(!queue.isEmpty()){
+            TreeNode cur = queue.poll();
+            System.out.println(cur.val+" ");
+            if (cur.left != null) queue.offer(cur.left);
+            if (cur.right != null) queue.offer(cur.right);
+        }
+    }
+
+    public List<List<Character>> levelOrder_2(TreeNode root){
+        List<List<Character>> ret = new ArrayList<>();
+        if (root == null) return ret;
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()){
+            int size = queue.size();
+            List<Character> list = new ArrayList<>();
+            while(size != 0){
+                TreeNode cur = queue.poll();
+                list.add(cur.val);
+                size--;
+                if (cur.left != null) queue.offer(cur.left);
+                if (cur.right != null) queue.offer(cur.right);
+            }
+            ret.add(list);
+        }
+        return ret;
     }
 
 
@@ -122,14 +163,44 @@ public class BinaryTree {
         if (root.left == null&&root.right == null){
             return 1;
         }
-        return Math.max(getHeight_1(root.left),getHeight_1(root.right))+1;
+        int leftH = getHeight_1(root.left);
+        int rightH = getHeight_1(root.right);
+        return Math.max(leftH,rightH)+1;
     }
+
+    /**
+     * 博哥的版本
+     * @param root
+     * @return
+     */
     int getHeight_2(TreeNode root){
         if (root==null) return 0;
         int leftH = getHeight_2(root.left);
         int rightH = getHeight_2(root.right);
         return leftH > rightH ? leftH+1 : rightH+1;
     }
+
+    /**
+     * 查找指定的元素是否在二叉树中
+     * @param root
+     * @param val
+     * @return
+     */
+    TreeNode find(TreeNode root,char val){
+        if (root == null) return null;
+        if (root.val == val) return root;
+
+        TreeNode ret = find(root.left,val);
+
+        if (ret!=null) return ret;
+
+        ret = find(ret.right,val);
+
+        if (ret!=null) return ret;
+
+        return null;
+    }
+
 
 
     /**
@@ -147,7 +218,7 @@ public class BinaryTree {
 
 
 
-    //TODO:非递归遍历
+    //左视图
     public List<Character> preorderTraversal_1(TreeNode root){
         List<Character> ret = new ArrayList<>();
         if (root == null) return ret;
@@ -160,8 +231,6 @@ public class BinaryTree {
                 cur = cur.right;
             }else if(cur != root){
                 cur = cur.father;
-            }else{
-
             }
         }
         return ret;
