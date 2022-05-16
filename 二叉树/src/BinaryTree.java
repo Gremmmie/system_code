@@ -257,4 +257,137 @@ public class BinaryTree {
         System.out.print(root.val + " -> ");
     }
 
+    boolean isSameTree(TreeNode root1,TreeNode root2){
+        if (root1!=null&&root2==null) return false;
+
+        if (root1==null&&root2!=null) return false;
+
+        if (root1==null&&root2==null) return true;
+
+        if (root1.val != root2.val) return false;
+
+        return isSameTree(root1.left,root2.left)
+                &&isSameTree(root1.right,root2.right);
+    }
+
+    /**我们设root的为s ,subRoot的为t，每经过root上的一个节点，都要遍历一遍
+     * subRoot，所以时间复杂度为s*t
+     * 是不是子树 时间复杂度
+     */
+    boolean isSubTree(TreeNode root,TreeNode subRoot){
+        if (root == null) return false;
+
+        if (isSameTree(root,subRoot)) return true;
+
+        if (isSubTree(root.left,subRoot)) return true;
+
+        if (isSubTree(root.right,subRoot)) return true;
+
+        return false;
+    }
+
+
+    boolean isCompleteTree(TreeNode root){
+        if (root==null) return false;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()){
+            TreeNode cur = queue.poll();
+            if (cur!=null){
+                queue.offer(cur.left);
+                queue.offer(cur.right);
+            }else{
+                break;
+            }
+        }
+        //判断队列中是否含有非空的元素
+        while (!queue.isEmpty()){
+            TreeNode cur = queue.peek();
+            if (cur == null){
+                queue.poll();
+            }else {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    //求高度
+    public int height(TreeNode root){
+        if (root!=null){
+            return 0;
+        }
+        int leftH = height(root.left);
+        int rightH = height(root.right);
+
+        //判断条件添加一个
+        if (leftH>=0 && rightH >= 0
+                && Math.abs(leftH-rightH)<=1){
+            return Math.max(rightH,leftH)+1;
+        }else {
+         return -1;
+        }
+    }
+
+    //所有左树和右树的高度差之小于等于1
+    public boolean isBalanced(TreeNode root){
+      if (root == null) return true;
+//      这种写法时间复杂度太高了
+//      int leftH = height(root.left);
+//      int rightH = height(root.right);
+//        return Math.abs(leftH - rightH) <= 1
+//                && isBalanced(root.left) &&
+//                isBalanced(root.right);
+        return height(root) >= 0;
+    }
+
+    //对称二叉树
+    public boolean isSymmetricChild(TreeNode leftTree,TreeNode rightTree){
+        if (leftTree==null&&rightTree==null) return true;
+        if ((leftTree!=null&&rightTree==null)
+            ||(leftTree==null&&rightTree!=null)) return false;
+        if (leftTree.val != rightTree.val) return false;
+        else return isSymmetricChild(leftTree.left,rightTree.right)
+                    &&isSymmetricChild(leftTree.right,rightTree.left);
+    }
+    public boolean isSymmetric(TreeNode root){
+        if (root == null) return true;
+        return isSymmetricChild(root.left,root.right);
+    }
+
+
+    public static int i = 0;
+    public static TreeNode createTree(String string){
+        TreeNode root = null;
+
+        if (string.charAt(i) != '#'){
+            root = new TreeNode(string.charAt(i));
+            i++;
+            root.left = createTree(string);
+            root.right = createTree(string);
+        }else {
+            i++;
+        }
+        return root;
+    }
+    public static void inorder(TreeNode root) {
+        if (root == null) return;
+        inorder(root.left);
+        System.out.println(root.val+" ");
+        inorder(root.right);
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
