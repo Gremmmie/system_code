@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="jxl">
-      <change afterPath="$PROJECT_DIR$/src/HuJieProject/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/No_9Homework/Abs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/No_9Homework/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/No_9Homework/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../二叉树/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../二叉树/src/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../二叉树/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../二叉树/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +75,13 @@
       <recent name="E:\JAVAcode\gyljava\NJMU\src\Experiment_3_file_processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WhoIsAbsent">
-    <configuration name="Answer_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Experiment_4_Array.Answer_sum" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Abs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No_9Homework.Abs" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Experiment_4_Array.*" />
+          <option name="PATTERN" value="No_9Homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingleList.PalindromeList" />
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No_9Homework.Dog" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SingleList.*" />
+          <option name="PATTERN" value="No_9Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No_9Homework.Test" />
+      <module name="NJMU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="No_9Homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,26 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sumLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Experiment_4_Array.sumLine" />
-      <module name="NJMU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Experiment_4_Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Abs" />
+        <item itemvalue="Application.Dog" />
         <item itemvalue="Application.WhoIsAbsent" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.PalindromeList" />
-        <item itemvalue="Application.sumLine" />
-        <item itemvalue="Application.Answer_sum" />
       </list>
     </recent_temporary>
   </component>

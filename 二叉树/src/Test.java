@@ -7,6 +7,8 @@ import java.util.List;
  * @purpose :
  */
 public class Test {
+    public long sum(long a,int b){return (a+b);}
+    public int sum(int a,int b){return a+b;}
     public static void main(String[] args) {
         BinaryTree binaryTree = new BinaryTree();
         binaryTree.createTree();
