@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="jxl">
-      <change afterPath="$PROJECT_DIR$/src/No_9Homework/Abs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/No_9Homework/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/No_9Homework/Test.java" afterDir="false" />
+    <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="第九次作业">
+      <change afterPath="$PROJECT_DIR$/src/No_9Homework/exp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../二叉树/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../二叉树/src/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../二叉树/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../二叉树/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/No_9Homework/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/No_9Homework/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,7 @@
       <recent name="E:\JAVAcode\gyljava\NJMU\src\Experiment_3_file_processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Dog">
     <configuration name="Abs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="No_9Homework.Abs" />
       <module name="NJMU" />
@@ -115,19 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OtherClass.Test2" />
-      <module name="NJMU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OtherClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WhoIsAbsent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HuJieProject.WhoIsAbsent" />
       <module name="NJMU" />
@@ -141,13 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No_9Homework.exp" />
+      <module name="NJMU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="No_9Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dog" />
+        <item itemvalue="Application.exp" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Abs" />
-        <item itemvalue="Application.Dog" />
         <item itemvalue="Application.WhoIsAbsent" />
-        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652370413677</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="第九次作业">
+      <created>1653959646562</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653959646562</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +264,7 @@
     <MESSAGE value="学校的实验课" />
     <MESSAGE value="双链表的实现" />
     <MESSAGE value="jxl" />
-    <option name="LAST_COMMIT_MESSAGE" value="jxl" />
+    <MESSAGE value="第九次作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="第九次作业" />
   </component>
 </project>
