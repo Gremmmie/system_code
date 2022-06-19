@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="期末复习实验一">
+    <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="期末复习实验">
+      <change afterPath="$PROJECT_DIR$/src/HashSet/RunoobTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashSet/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashSet/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashSet/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashSet/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashSet/Test5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Experiment_7_ArrayList/FamilyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Experiment_7_ArrayList/FamilyInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +77,13 @@
       <recent name="E:\JAVAcode\gyljava\NJMU\src\Experiment_3_file_processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicTacToe">
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="No_9Homework.Dog" />
+  <component name="RunManager" selected="Application.Test5">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashSet.Test1" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="No_9Homework.*" />
+          <option name="PATTERN" value="HashSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="No_9Homework.Test" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashSet.Test2" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="No_9Homework.*" />
+          <option name="PATTERN" value="HashSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Experiment_4_Array.TicTacToe.TicTacToe" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashSet.Test3" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Experiment_4_Array.TicTacToe.*" />
+          <option name="PATTERN" value="HashSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="No_9Homework.exp" />
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashSet.Test4" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="No_9Homework.*" />
+          <option name="PATTERN" value="HashSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="printDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Final_Review.实验1.printDesign" />
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashSet.Test5" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Final_Review.实验1.*" />
+          <option name="PATTERN" value="HashSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TicTacToe" />
-        <item itemvalue="Application.printDesign" />
-        <item itemvalue="Application.Dog" />
-        <item itemvalue="Application.exp" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test5" />
+        <item itemvalue="Application.Test4" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655542351218</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="期末复习实验">
+      <created>1655603459001</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655603459001</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +292,7 @@
     <MESSAGE value="jxl" />
     <MESSAGE value="第九次作业" />
     <MESSAGE value="期末复习实验一" />
-    <option name="LAST_COMMIT_MESSAGE" value="期末复习实验一" />
+    <MESSAGE value="期末复习实验" />
+    <option name="LAST_COMMIT_MESSAGE" value="期末复习实验" />
   </component>
 </project>
