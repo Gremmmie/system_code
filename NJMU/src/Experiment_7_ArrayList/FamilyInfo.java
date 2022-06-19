@@ -9,6 +9,7 @@ public class FamilyInfo {
     public FamilyInfo() {
         people = new ArrayList<Person>();
     }
+
     public Person getPerson(String name) {
         int pos = indexOf(name);
         if(pos !=-1) {
