@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class ReverseAll {
     public static void main(String[] args) throws FileNotFoundException {
         ArrayList<ArrayList<String>> arrayList = new ArrayList<>();
-        Scanner scanner = new Scanner(new File("F:/NJMU.iml"));
+        Scanner scanner = new Scanner(new File("E:\\JAVAcode\\gyljava\\NJMU\\NJMU.iml"));
         while (scanner.hasNextLine()) {
             String string = scanner.nextLine();
             Scanner scanner1 = new Scanner(string);

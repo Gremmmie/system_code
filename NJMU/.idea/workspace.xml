@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="HashSet">
-      <change afterPath="$PROJECT_DIR$/src/Map/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/学生信息管理.java" afterDir="false" />
+    <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="HashSet、Map">
+      <change afterPath="$PROJECT_DIR$/src/Experiment_8_Collection/Answer_EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Experiment_8_Collection/EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Experiment_8_Collection/Vocabulary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Experiment_8_Collection/Vocabulary1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Experiment_8_Collection/Vocabulary2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Experiment_7_ArrayList/ReverseAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Experiment_7_ArrayList/ReverseAll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <recent name="E:\JAVAcode\gyljava\NJMU\src\Experiment_3_file_processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.学生信息管理">
+  <component name="RunManager" selected="Application.EditDistance">
     <configuration name="学生信息管理" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Map.学生信息管理" />
       <module name="NJMU" />
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.Test2" />
+    <configuration name="Answer_EditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Experiment_8_Collection.Answer_EditDistance" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="Experiment_8_Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.Test3" />
+    <configuration name="EditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Experiment_8_Collection.EditDistance" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="Experiment_8_Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.Test4" />
+    <configuration name="ReverseAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Experiment_7_ArrayList.ReverseAll" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="Experiment_7_ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test5 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.Test5" />
+    <configuration name="Vocabulary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Experiment_8_Collection.Vocabulary" />
       <module name="NJMU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="Experiment_8_Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EditDistance" />
+        <item itemvalue="Application.Answer_EditDistance" />
+        <item itemvalue="Application.Vocabulary" />
+        <item itemvalue="Application.ReverseAll" />
         <item itemvalue="Application.学生信息管理" />
-        <item itemvalue="Application.Test5 (1)" />
-        <item itemvalue="Application.Test4 (1)" />
-        <item itemvalue="Application.Test3 (1)" />
-        <item itemvalue="Application.Test2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655627113307</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="HashSet、Map">
+      <created>1655720764495</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655720764495</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,6 +308,7 @@
     <MESSAGE value="期末复习实验一" />
     <MESSAGE value="期末复习实验" />
     <MESSAGE value="HashSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashSet" />
+    <MESSAGE value="HashSet、Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashSet、Map" />
   </component>
 </project>
