@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="实验8">
-      <change afterPath="$PROJECT_DIR$/src/Experiment_7_ArrayList/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Experiment_7_ArrayList/Vocabulary1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String_Test/StringTest.java" afterDir="false" />
+    <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="小测验">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -286,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655834463563</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="小测验">
+      <created>1655887022100</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1655887022100</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,6 +319,7 @@
     <MESSAGE value="HashSet" />
     <MESSAGE value="HashSet、Map" />
     <MESSAGE value="实验8" />
-    <option name="LAST_COMMIT_MESSAGE" value="实验8" />
+    <MESSAGE value="小测验" />
+    <option name="LAST_COMMIT_MESSAGE" value="小测验" />
   </component>
 </project>
