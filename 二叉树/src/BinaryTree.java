@@ -52,9 +52,35 @@ public class BinaryTree {
             return;
         }
         System.out.print(root.val + " -> ");
+        list.add((int) root.val);
         preOrder(root.left);
         preOrder(root.right);
     }
+    /**
+     * 前序遍历（有返回值版本）
+     */
+    List<Integer> list;
+    public List<Integer> preorderTraversal1(TreeNode root){
+        list = new LinkedList<>();
+        preOrder(root);
+        return list;
+    }
+    public List<Integer> preorderTraversal2(TreeNode root){
+        List<Integer> list = new ArrayList<>();
+        if (root == null) return list;
+        list.add((int)root.val);
+
+        List<Integer> leftTree = preorderTraversal2(root.left);
+        list.addAll(leftTree);
+
+        List<Integer> rightTree = preorderTraversal2(root.right);
+        list.addAll(rightTree);
+
+        return list;
+
+    }
+
+
 
     /**
      * 层序遍历
