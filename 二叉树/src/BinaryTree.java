@@ -1,9 +1,6 @@
 import com.sun.source.tree.Tree;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * @author Gremmie102
@@ -402,6 +399,73 @@ public class BinaryTree {
         inorder(root.left);
         System.out.println(root.val+" ");
         inorder(root.right);
+    }
+
+    /**
+     * 二叉树的最近公共祖先（方法1）
+     * @param root
+     * @param p
+     * @param q
+     * @return
+     */
+    public static TreeNode lowestCommonAncestor(TreeNode root,TreeNode p,TreeNode q) {
+        if (root == null) {
+            return null;
+        }
+        if (root == p || root == q) {
+            return root;
+        }
+        //根不是，那么分别去找根的左边和根的右边
+
+        TreeNode leftRet = lowestCommonAncestor(root.left, p, q);
+        TreeNode rightRet = lowestCommonAncestor(root.right, p, q);
+
+        //左边和右边都不为空
+        if (leftRet != null && rightRet != null) {
+            return root;
+        } else if (leftRet != null) {//p和q都在左边，
+            return leftRet;
+        } else if (rightRet != null) {
+            return rightRet;
+        }
+        return null;
+    }
+
+
+    /**
+     * 二叉树的最近公共祖先（方法2）
+     * @param root
+     * @param p
+     * @param q
+     * @return
+     */
+    public static TreeNode lowestCommonAncestor2(TreeNode root,TreeNode p,TreeNode q){
+
+        Stack<TreeNode> stack1 = new Stack<>();
+        getPath(stack1,p,q);
+
+        Stack<TreeNode> stack2 = new Stack<>();
+        getPath(stack2,p,q);
+
+
+    }
+    private static boolean getPath(Stack<TreeNode> stack,TreeNode root,TreeNode node){
+        if (root == null || node == null) return false;
+        stack.push(root);
+        if (root == node){
+            return true;
+        }
+        boolean flag1 = getPath(stack,root.left,node);
+        if (flag1 == true){
+            return true;
+        }
+        boolean flag2 = getPath(stack,root.left,node);
+        if (flag2 == true){
+            return true;
+        }
+        //走到这里没返回true说明两条路径没有找到对应的node
+        stack.pop();
+        return false;
     }
 }
 
