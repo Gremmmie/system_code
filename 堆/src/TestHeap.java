@@ -22,6 +22,21 @@ public class TestHeap {
         }
     }
 
+    public static void main(String[] args) {
+        System.out.println(judge("abaa"));
+    }
+    public static boolean judge (String str) {
+        // write code here
+        if(str.length() == 0 || str.length() == 1)
+            return true;
+        int left = 0;
+        int right = str.length()-1;
+        while(left<=right){
+            if(str.charAt(left++) != str.charAt(right--))
+                return false;
+        }
+        return true;
+    }
     /**
      *
      * @param root 是每棵子树的根节点的下标
@@ -30,6 +45,8 @@ public class TestHeap {
     private void shiftDown(int root,int len){
         int parent = root;
         int child = 2*parent+1;
+//        float f = 4.0F;
+//        char s = '\u0639';
         while(child<len){
             //如果有右孩子，找到左右孩子的最大值
             if (elem[child]<elem[child+1]

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b7f643d-9b6a-4d4b-8013-005173e09b25" name="Changes" comment="小测验">
+      <change afterPath="$PROJECT_DIR$/src/niukewang/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../堆/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../堆/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../堆/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../堆/src/TestHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../堆/src/TestHeap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +76,7 @@
       <recent name="E:\JAVAcode\gyljava\NJMU\src\Experiment_3_file_processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Answer_EditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Experiment_8_Collection.Answer_EditDistance" />
       <module name="NJMU" />
@@ -92,6 +96,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Experiment_8_Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niukewang.Solution" />
+      <module name="NJMU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="niukewang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,26 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vocabulary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Experiment_8_Collection.Vocabulary" />
-      <module name="NJMU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Experiment_8_Collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.EditDistance" />
         <item itemvalue="Application.Answer_EditDistance" />
-        <item itemvalue="Application.Vocabulary" />
       </list>
     </recent_temporary>
   </component>

@@ -8,10 +8,17 @@
  * 向下调整的时间复杂度为O(log2(以2为底)n)
  */
 public class Test {
-    public static void main(String[] args) {
-        TestHeap testHeap = new TestHeap();
-        int[] array = {27,15,19,18,28,34,65,49,25,37};
-        testHeap.createHeap(array);
-        System.out.println("hahaha");
+
+        public static void main(String args[]) {
+            int i = -5;
+            i = ++(i);
+            System.out.println(i);
+
     }
 }
+//    public static void main(String[] args) {
+//        TestHeap testHeap = new TestHeap();
+//        int[] array = {27,15,19,18,28,34,65,49,25,37};
+//        testHeap.createHeap(array);
+//        System.out.println("hahaha");
+//    }
