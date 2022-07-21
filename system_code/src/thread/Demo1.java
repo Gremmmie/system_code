@@ -3,13 +3,18 @@ package thread;
 /**
  * @author Gremmie102
  * @date 2022/7/21 9:15
- * @purpose : 关于多线程的一些代码
+ * @purpose : 关于多线程的一些代码,创建线程的第一种方法
  */
 class MyThread extends Thread{
     public void run(){
         //这个run方法重写的目的,是为了明确,咱们新创建出来的线程要干啥活
         while(true){
             System.out.println("hello thread!");
+            try{
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
 
     }
@@ -50,6 +55,11 @@ public class Demo1 {
         //我们可以搞两个si循环
         while(true){
             System.out.println("hello main");
+            try{
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
         //运行之后我们就可以发现,main和thread交替打印
         //每一波打印机个,切换到下一波是什么时候,都是不确定的,都是由调度器控制的
@@ -60,5 +70,23 @@ public class Demo1 {
         //少数情况打开jconsle时,可能不显示这里的进程列表.
         //这个时候退出,然后右键管理员运行.
         //在标签页中选择线程,往下翻,在左下角部分可以查询到当前Java进程中的线程信息了
+
+        //刚才的死循环代码,打印的太多太快
+        //有的时候不希望它们打印的这么快(不方便来观察)
+        //我们可以用sleep()来让线程适当的"休息一下"-->指定让线程摸一会鱼,不要上cpu干活
+        //使用Thread.sleep();的方法进行休眠
+        //sleep时Thread的静态成员方法
+        //sleep的参数是一个时间,单位是ms
+        //计算机算的快,常用的就是ms,us,ns这结果单位
+
+        //sleep(1000)就是要休眠1000ms,除非遇到一些异常打断休眠,
+        //所以为了防止这样的情况发生,我们要套上try catch的壳
+
+        //这里还有一个经典面试题:谈谈Thread的run和start的区别
+        //使用run,可以看到只是在打印thread,没有打印main
+        //直接调用run,并没有创建新的线程,而是在之前的线程中,执行了run里的内容
+        //使用start,则是创建新的线程,新的线程里面会调用run,新线程和旧线程之间是并发执行的关系
+
+
     }
 }
