@@ -10,8 +10,17 @@ class  Counter{
     //用来保存计数的变量
     public int count;
 
-    public void increase(){
-        count++;
+     public void increase(){
+         //多个线程去调用Increase方法,其实就是在针对这个counter对象来枷锁
+         //此时如果一个线程获取到锁了,另外的线程就要阻塞等待
+         //但是如果多个线程是尝试对不同的对象加锁,则互相之间不会产生互斥的情况
+         //在Java里,任何一个对象,都可以用来作为锁对象,
+         // (都可以放在synchronized的括号中)
+         //每个对象,内存空间中有一个特殊的区域:对象头(JVM自带的,对象的一些特殊信息)
+         synchronized(this){
+             count++;
+         }
+
     }
 }
 public class Demo14 {
