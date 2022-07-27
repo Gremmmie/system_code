@@ -26,7 +26,7 @@ class Singleton{
 
 //首次调用getInstance才会创建实例
 class SingletonLazy {
-    private static SingletonLazy instance = null;
+    volatile private static SingletonLazy instance = null;
 
     public static  SingletonLazy getInstance() {
         //当线程已经安全了之后,再尝试这样加锁,其实就非常影响效率了
@@ -39,7 +39,7 @@ class SingletonLazy {
                 //加锁可能涉及到阻塞,前面的if和后面的if中间的间隔,可能是沧海桑田
                 if (instance == null){
                     /**
-                     * 这个在再多个线程尝试初始化,产生了锁竞争,
+                     * 这个在多个线程尝试初始化,产生了锁竞争,
                      * 这些参与竞争的线程,拿到锁之后,再进一步确认,是否真的要初始化
                      * ----------------------------
                      * 不要以为这里的两个if判断是多余的
@@ -47,7 +47,19 @@ class SingletonLazy {
                      * 如果是单线程,连续两个一样的if判定确实无意义
                      * 但是多线程就不是了,尤其是中间隔了个加锁的操作
                      */
-
+                    //双重if的核心目标,是降低锁竞争的概率
+                    //第二个判断如果省略了,线程轮流获取到锁,
+                    // 那么大家都可以没有限制地创造实例了
+                    /**
+                     * 这里会有内存可见性问题
+                     * 很多线程尝试读,是否会被优化呢?
+                     * 第一个线程读,把内存地数据读到寄存器了
+                     * 第二个线程也去读,会不会就直接重复利用上述寄存器地结果呢?
+                     * 每个线程都有自己的上下文,每个线程都有自己的寄存器内容
+                     * 因此按理来说是不应该出现优化的,但不一样
+                     * 编译器优化是什么样子我们也不清楚
+                     * 因此在这个场景下给Instance加上volatile是更稳健的做法.
+                     */
                     instance = new SingletonLazy();
                 }
             }
