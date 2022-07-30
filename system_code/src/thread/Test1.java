@@ -7,11 +7,11 @@ import java.io.IOException;
  * @date 2022/7/29 16:43
  * @purpose :
  */
-public class Test {
+public class Test1 {
 
     public static void main(String[] args) throws IOException {
-        Test test = new Test();
-        MyThread thread = test.new MyThread();
+        Test1 test1 = new Test1();
+        MyThread thread = test1.new MyThread();
         Thread thread1 = new Thread(() -> {
            while (true){
                System.out.println("这里是thread1");
