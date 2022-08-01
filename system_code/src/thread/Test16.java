@@ -1,6 +1,4 @@
 package thread;
-
-
 public class Test16 {
 
     static final Object obj = new Object();
