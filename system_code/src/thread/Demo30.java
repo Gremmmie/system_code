@@ -1,6 +1,6 @@
 package thread;
 
-import org.omg.IOP.CodecPackage.InvalidTypeForEncoding;
+//import org.omg.IOP.CodecPackage.InvalidTypeForEncoding;
 
 // [作业] 3 个线程按顺序打印 10 次 ABC
 public class Demo30 {

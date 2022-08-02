@@ -1,4 +1,3 @@
-package thread;
 
 package thread;
 
