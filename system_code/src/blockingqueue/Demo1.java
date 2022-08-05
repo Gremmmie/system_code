@@ -12,6 +12,7 @@ public class Demo1 {
     final Object[] items;
 //    LinkedBlockingQueue
 //    PriorityBlockingQueue
+//    ArrayBlockingQueue
         public Demo1(Object[] items) {
         this.items = items;
     }
