@@ -30,7 +30,7 @@ class MyBlockingQueue {
                 tail = 0;
             }
             // 下面这个写法绝对不是错!! 也是正确的写法. 大家去掌握当然也没毛病
-            // tail = tail % items.length;
+            // tail = (tail+1) % items.length;
             size++;
             // 即使没人在等待, 多调用几次 notify 也没啥副作用~~
             this.notify();

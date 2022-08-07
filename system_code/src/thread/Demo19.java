@@ -75,8 +75,8 @@ class SingletonLazy {
 
 public class Demo19 {
     public static void main(String[] args) {
-        Singleton instance = Singleton.getInstance();
-        Singleton instance2 = Singleton.getInstance();
+        SingletonLazy instance = SingletonLazy.getInstance();
+        SingletonLazy instance2 = SingletonLazy.getInstance();
         System.out.println(instance == instance2);//返回true
     }
 }
